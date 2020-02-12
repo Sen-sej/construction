@@ -1,0 +1,122 @@
+body{
+  padding: 0;
+  margin:0;
+}
+p{
+  font-size:18px;
+}
+.brand--logo{
+  max-width: 150px;
+}
+.box__input{
+  box-shadow: 0 0 4px #000;
+}
+.what:hover{
+  color:#0bb7e2
+}
+.bacground__img{
+  background: linear-gradient(to top, rgba(0,0,0,0),#6c757d), 
+  url(../img/otdelochnye-raboty-1.webp) 50% 50%/cover; 
+min-height: 90vh;
+}
+.font--siz > h2{
+font-size: 40px;
+text-shadow: 1px 1px 3px #000;
+}
+.font--siz > p{
+  font-size: 25px;
+  text-shadow: 1px 1px 2px #000;
+}
+.bacground__col{
+  background: linear-gradient(to top,#5f9ea0,#e4d2d2);
+}
+.card--grow{
+  display:flex;
+ flex-direction:column;
+flex-grow: 1;
+}
+.card--content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cart--bg{
+  background: cadetblue;
+}
+.line--hei{
+  line-height: 30px;
+  font-size: 20px;
+}
+/* галерея--------------------------------------------------------------------*/
+ .image {
+	padding:10px;
+  cursor:zoom-in;
+  max-height:250px;
+}
+.popup {
+	position: absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+}
+.popup_bg {
+	background:rgba(0,0,0,0.3);
+	position:fixed;
+	z-index:1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: auto;
+  height: auto;
+}
+.popup_img {
+	position: fixed;
+	z-index:2;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	max-height: 90%;
+}
+.popup_img {
+  pointer-events: none;
+}
+/*=============================*/
+.col--wrap{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*---------------------------------*/
+/*галереяEND---------------------------------------------------------------------------------*/
+
+.w--576{
+  width: 250px;
+}
+/*высота блока карусели*/
+.carousel--inner{
+  min-height: 300px;
+}
+.carousel--inner2{
+  min-height: 500px;
+}
+.bg--maps{
+  background: linear-gradient(to top,rgba(52, 58, 64, 0),#343a40);
+}
+.bg--footer{
+  background: linear-gradient(to top,#343a40 20%,rgba(52, 58, 64, 0));
+}
+.shadow--t{
+text-shadow: 0 0 3px #000;
+}
+@media screen and (max-width: 576px ){  
+  .w--576{
+    width: 200px;
+  }
+
+  }
+
+
